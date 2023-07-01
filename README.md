@@ -1,7 +1,6 @@
 # Overview
 {Provide a description of the software that you wrote.}
-
-{Describe your purpose for writing this software.}
+I have worked with APIs and the MVC structure previously in Node.js, but wanted to expand my skills in another language I'm more familiar with, C#. To do this, I created a simple web API that delivers data regarding a pizza order. Though this project does not (yet) have a functioning frontend, CRUD operations can be performed using SwaggerUI. This project is linked to a SQL relational database that is stored locally. 
 
 {Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code.}
 
@@ -21,21 +20,12 @@ Language:
 Framework:
 - ASP.NET Core
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
-
-# Useful Websites
-
-{Make a list of websites that you found helpful in this project}
+# Useful Websites/Resources
 
 - [ASP.NET Core Web API Tutorial](https://www.youtube.com/watch?v=_8nLSsK5NDo&list=PL82C6-O4XrHdiS10BLh23x71ve9mQCln0&index=1)
-- [Web Site Name](http://url.link.goes.here)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
-- Item 1
-- Item 2
-- Item 3
+- Frontend
+- Host on a hosting site (like Render)
+- Additional tables in DB including those with relations
