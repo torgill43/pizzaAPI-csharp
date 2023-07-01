@@ -20,6 +20,12 @@ namespace pizzaAPI_csharp.Repositories
             return Save();
         }
 
+        public bool DeleteOrder(Order order)
+        {
+            _context.Remove(order);
+            return Save();
+        }
+
         public Order GetOrder(int id)
         {
             return _context.Order.Where(o => o.Id == id).FirstOrDefault();
@@ -39,6 +45,12 @@ namespace pizzaAPI_csharp.Repositories
         {
             var saved = _context.SaveChanges();
             return saved > 0 ? true : false;
+        }
+
+        public bool UpdateOrder(Order order)
+        {
+            _context.Update(order);
+            return Save();
         }
     }
 }

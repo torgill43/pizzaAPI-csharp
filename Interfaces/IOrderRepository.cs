@@ -8,6 +8,8 @@ namespace pizzaAPI_csharp.Interfaces
         Order GetOrder(int id);
         bool OrderExists(int id);
         bool CreateOrder(Order order);
+        bool UpdateOrder(Order order);
+        bool DeleteOrder(Order order);
         bool Save();
     }
 }
