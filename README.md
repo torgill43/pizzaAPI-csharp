@@ -1,10 +1,7 @@
 # Overview
-{Provide a description of the software that you wrote.}
 I have worked with APIs and the MVC structure previously in Node.js, but wanted to expand my skills in another language I'm more familiar with, C#. To do this, I created a simple web API that delivers data regarding a pizza order. Though this project does not (yet) have a functioning frontend, CRUD operations can be performed using SwaggerUI. This project is linked to a SQL relational database that is stored locally. 
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/UESrzbPiOqw)
 
 # Development Environment
 IDE: 
